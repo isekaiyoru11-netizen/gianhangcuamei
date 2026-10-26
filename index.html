@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>DonChoiGame | Link Bio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background:
+        radial-gradient(ellipse at center, #383838 0%, #171717 45%, #080808 80%);
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 640px;
+      min-height: 100vh;
+      margin: auto;
+      padding: 35px 24px;
+      background: rgba(15, 15, 15, 0.94);
+      box-shadow: 0 0 70px rgba(255, 255, 255, 0.08);
+    }
+
+    /* PHẦN GIỚI THIỆU */
+
+    .profile {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 15px;
+      border: 2px solid white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #252525, #050505);
+      font-size: 42px;
+      overflow: hidden;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .profile h1 {
+      font-size: 27px;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    .username {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .description {
+      color: #ddd;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* VIDEO YOUTUBE */
+
+    .video {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      margin: 25px 0 20px;
+      background: #222;
+      border: 1px solid #444;
+    }
+
+    .video iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      position: absolute;
+      inset: 0;
+    }
+
+    /* MẠNG XÃ HỘI */
+
+    .socials {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      margin: 25px 0 30px;
+    }
+
+    .socials a {
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.25s;
+    }
+
+    .socials a:hover {
+      color: #00e5ff;
+      transform: translateY(-4px);
+    }
+
+    /* TIÊU ĐỀ DANH SÁCH */
+
+    .section-title {
+      font-size: 13px;
+      color: #aaa;
+      letter-spacing: 2px;
+      margin: 28px 0 12px;
+      text-transform: uppercase;
+    }
+
+    /* CÁC NÚT LINK */
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+
+    .link-button {
+      width: 100%;
+      min-height: 64px;
+      padding: 16px;
+      border: 2px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: white;
+      background: transparent;
+      text-decoration: none;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      transition: 0.25s;
+    }
+
+    .link-button:hover {
+      color: black;
+      background: white;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 20px #ffffff20;
+    }
+
+    .link-icon {
+      font-size: 21px;
+    }
+
+    .note {
+      margin-top: 15px;
+      text-align: center;
+      color: #999;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 35px;
+      text-align: center;
+      color: #777;
+      font-size: 12px;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 28px 16px;
+      }
+
+      .socials {
+        gap: 20px;
+      }
+
+      .link-button {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <!-- 1. THÔNG TIN CÁ NHÂN -->
+
+    <header class="profile">
+
+      <div class="avatar">
+        🎮
+      </div>
+
+      <h1>DON CHOI GAME</h1>
+
+      <p class="username">@donchoigame</p>
+
+      <p class="description">
+        Tổng hợp các link download trong video của mình.
+        Theo dõi và tham gia cộng đồng của mình ở các nền tảng
+        bên dưới nhé! 🤘😎🤘
+      </p>
+
+    </header>
+
+
+    <!-- 2. VIDEO YOUTUBE -->
+
+    <section class="video">
+
+      <!-- Thay VIDEO_ID bằng mã video YouTube của bạn -->
+
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+        title="Video nổi bật"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+
+    </section>
+
+
+    <!-- 3. CÁC MẠNG XÃ HỘI -->
+
+    <nav class="socials">
+
+      <a href="https://facebook.com/"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="Facebook">f</a>
+
+      <a href="https://youtube.com/"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="YouTube">▶</a>
+
+      <a href="https://discord.com/"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="Discord">◉</a>
+
+      <a href="https://tiktok.com/"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="TikTok">♪</a>
+
+    </nav>
+
+
+    <!-- 4. DANH SÁCH LINK TẢI -->
+
+    <section>
+
+      <h2 class="section-title">Tài nguyên của tôi</h2>
+
+      <div class="links">
+
+        <!-- LINK 1 -->
+
+        <a class="link-button"
+           href="https://example.com/link-1"
+           target="_blank"
+           rel="noopener noreferrer">
+
+          <span class="link-icon">🤖</span>
+          Prompt Bypass AI
+
+        </a>
+
+
+        <!-- LINK 2 -->
+
+        <a class="link-button"
+           href="https://example.com/link-2"
+           target="_blank"
+           rel="noopener noreferrer">
+
+          <span class="link-icon">🎮</span>
+          Tài nguyên Game
+
+        </a>
+
+
+        <!-- LINK 3 -->
+
+        <a class="link-button"
+           href="https://example.com/link-3"
+           target="_blank"
+           rel="noopener noreferrer">
+
+          <span class="link-icon">📁</span>
+          File và tài liệu
+
+        </a>
+
+
+        <!-- LINK 4 -->
+
+        <a class="link-button"
+           href="https://example.com/link-4"
+           target="_blank"
+           rel="noopener noreferrer">
+
+          <span class="link-icon">🧰</span>
+          Công cụ hữu ích
+
+        </a>
+
+
+        <!-- LINK 5: SAO CHÉP KHỐI NÀY ĐỂ THÊM NÚT -->
+
+        <a class="link-button"
+           href="https://example.com/link-5"
+           target="_blank"
+           rel="noopener noreferrer">
+
+          <span class="link-icon">🔥</span>
+          Tài nguyên mới
+
+        </a>
+
+      </div>
+
+      <p class="note">
+        Một số liên kết có thể yêu cầu hoàn thành nhiệm vụ
+        trước khi truy cập nội dung đích.
+      </p>
+
+    </section>
+
+
+    <!-- 5. CHÂN TRANG -->
+
+    <footer>
+      © <span id="year"></span> DonChoiGame
+      <br>
+      All rights reserved.
+    </footer>
+
+  </main>
+
+
+  <script>
+    // Tự động cập nhật năm hiện tại
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
